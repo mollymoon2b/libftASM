@@ -6,7 +6,7 @@
 /*   By: ade-bonn <ade-bonn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/02/11 12:07:10 by ade-bonn          #+#    #+#             */
-/*   Updated: 2015/02/11 15:04:48 by ade-bonn         ###   ########.fr       */
+/*   Updated: 2015/02/11 15:07:38 by ade-bonn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ int main(int ac, char **av)
   */
 
 //ft_isascii.s
-
+   /*
 int main(int ac, char **av)
 {
     if (ac != 2)
@@ -63,3 +63,17 @@ int main(int ac, char **av)
     printf("i = [%d]\n", i);
     return (0);
 }
+*/
+//ft_isprint.s
+
+	/*
+int main(int ac, char **av)
+{
+    if (ac != 2)
+        return 0;
+    int i = 12;
+    i = ft_isascii(av[1][0]);
+    printf("i = [%d]\n", i);
+    return (0);
+}
+	*/
