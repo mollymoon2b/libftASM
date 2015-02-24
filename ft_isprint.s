@@ -1,6 +1,6 @@
 section .data
 
-section .text
+	section .text
 	    global start
 	    global _ft_isprint
 

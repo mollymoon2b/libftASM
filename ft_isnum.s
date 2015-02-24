@@ -14,8 +14,8 @@ false:
 
 _ft_isnum:
 	mov rax, 0
-	cmp rdi, '0' ; cmp 'a' - rdi = -2
-	jb false ; if 'a' - rdi = -2 go to false else nothing
-	cmp rdi, '9' ; cmp 'z' - rdi
-	ja false ; if 'z' - rdi =  go to false else nothing
+	cmp rdi, '0'
+	jb false 
+	cmp rdi, '9'
+	ja false
 	ret
