@@ -2,10 +2,12 @@ NAME = libftASM.a
 INCLUDE =
 CFLAGS = -Wall -Werror -Wextra
 SRC = 	   ft_isalnum.s	\
-	   ft_isalpha.s	\
+	  	 ft_isalpha.s	\
 		ft_isprint.s \
 		ft_isascii.s \
-	   ft_isnum.s
+		ft_tolower.s \
+		ft_toupper.s 	\
+		   ft_isdigit.s
 
 CC = gcc
 LIB = ar rc

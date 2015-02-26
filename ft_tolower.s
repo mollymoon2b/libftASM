@@ -1,12 +1,9 @@
 section .data
 
 section .text
-	global start
 	global _ft_tolower
 
-start:
-	jmp _ft_tolower
-	ret
+extern _ft_isalpha
 
 _ft_tolower:
 	call _ft_isalpha

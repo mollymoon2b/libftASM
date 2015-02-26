@@ -1,15 +1,10 @@
 section .data
 	
 section .text
-	global start
 	global _ft_isalpha
-	
-start:
-	jmp _ft_isalpha
-	ret
 
 false:
-	mov rax, 1
+	mov rax, 0
 	ret
 
 lol:
@@ -20,7 +15,7 @@ lol:
 	        ret
 
 _ft_isalpha:
-	        mov rax, 0
+	        mov rax, 1
 	        cmp rdi, 'a'
 	        jb lol 
 	        cmp rdi, 'z'
