@@ -17,7 +17,6 @@
 #include <unistd.h>
 #include <fcntl.h>
 
-/*
 void	ft_bzero(void *s, size_t n);
 char	*ft_strcat(char *dest, const char *src);
 int		ft_isalpha(int c);
@@ -32,11 +31,11 @@ int		ft_strlen(char *str);
 void	*ft_memset(void *s, int c, size_t n);
 void	*ft_memcpy(void *dest, void *serc, size_t n);
 char	*ft_strdup(const char *s);
-void	ft_cat(int fd); */
+void	ft_cat(int fd);
 
 int		main(int ac, char **av)
 {
-  /*
+  
 	printf("***FT_BZERO***\n\n");
 	char	s1[] = "coucou";
 	char	p1[] = "coucou";
@@ -56,7 +55,7 @@ int		main(int ac, char **av)
 	printf("FT_STRCAT: %s\n", steve);
 	ninja = strcat(desti1, "steve");
 	printf("STRCAT: %s\n", ninja);
-	*/
+	
 	printf("\n\e[33m ***FT_ISALPHA*** \e[0m\n\n");
 	int		c1 = 42;
 	int		i;
@@ -298,7 +297,7 @@ int		main(int ac, char **av)
 		printf("TOLOWER ')' : %c\n", i2);
 	}	
 
-	/*
+	
 	printf("\n***FT_PUTS***\n\n");
 	int		ret = 0;
 	ret = ft_puts(NULL);
@@ -365,5 +364,5 @@ int		main(int ac, char **av)
 	ft_cat(open(av[0], O_RDONLY));
 	ft_cat(-42);
 	ft_cat(42);
-	return (ac); */
+	return (ac);
 }
